@@ -1,4 +1,4 @@
-package Zjazd4.Task8;
+package Zjazd4.Task9;
 
 public class Maine {
     public static void main(String[] args) {
@@ -13,5 +13,10 @@ public class Maine {
 
         System.out.println(person.equals(person1));
 
+        System.out.println("**********Hash*******************");
+
+        System.out.println(person.hashCode()); // dwa takie same objekty
+        System.out.println(person1.hashCode());
+        System.out.println(person2.hashCode());
     }
 }

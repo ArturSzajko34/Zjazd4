@@ -1,4 +1,6 @@
-package Zjazd4.Task8;
+package Zjazd4.Task9;
+
+import java.util.Objects;
 
 public class Person {
 
@@ -22,4 +24,10 @@ public class Person {
         }
         return super.equals(obj);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name,pesel) ;
+    }
+
 }
