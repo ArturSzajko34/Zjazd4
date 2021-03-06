@@ -7,8 +7,6 @@ public class Maine {
         Dog dog = new Dog("Reksiu");
         Cat cat = new Cat("Nygus");
 
-
-
         bitePostman(animal);
         bitePostman(dog);
         bitePostman(cat);
