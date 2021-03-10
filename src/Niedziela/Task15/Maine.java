@@ -1,7 +1,5 @@
 package Niedziela.Task15;
 
-import Niedziela.Task14.Score;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
